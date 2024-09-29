@@ -1,0 +1,36 @@
+
+/*navbar*/
+#navbar{
+    background: #333;
+    color: white;
+    overflow:auto;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #444;
+    color: #f7c08a;
+}

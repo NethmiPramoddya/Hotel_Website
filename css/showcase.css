@@ -1,0 +1,52 @@
+/*showcase*/
+#showcase {
+    background: url('../img/showcase1.2.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/photo1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+     min-height: 100%;
+
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+    text-align: center;
+    line-height: 1.7em;
+
+}
